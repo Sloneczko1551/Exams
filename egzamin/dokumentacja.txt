@@ -1,0 +1,9 @@
+nazwa funkcji: rzuc_koscia
+ argumenty: ilosc_rzutow - liczba całkowita, określająca ile razy ma zostać wykonany rzut kością
+ typ zwracany: lista liczb całkowitych, zawierająca wyniki rzutów kostką
+ informacje: Funkcja generuje określoną liczbę rzutów kostką (o sześciu ścianach) i zwraca wyniki tych rzutów
+
+nazwa funkcji: sumuj_punkty
+ argumenty: wyniki - lista liczb całkowitych, wyniki rzutów kostką do przetworzenia
+ typ zwracany: liczba całkowita, suma punktów zdobytych za oczka, które wystąpiły co najmniej 2 razy
+ informacje: Funkcja oblicza sumę punktów zdobytych za oczka, które wystąpiły co najmniej 2 razy w wynikach rzutów kostką.

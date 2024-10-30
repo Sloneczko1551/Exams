@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#F5F5DC">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:background="#A52A2A"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Gra w kości. Autor:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="#D2691E"
+        android:text="RZUĆ KOŚĆMI"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_margin="9dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/question"/>
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_margin="9dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/question"/>
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_margin="9dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/question"/>
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_margin="9dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/question"/>
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_margin="9dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/question"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewRound"
+        android:layout_marginVertical="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suma w rundzie: 0" />
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_marginVertical="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik gry: 0" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_marginVertical="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D2691E"
+        android:text="RESETUJ WYNIK"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
